@@ -9,7 +9,7 @@ Nearly a decade of multi-site operations leadership — KPI tracking, revenue re
 ## Featured Projects
 
 **[Flight Delay MLOps Pipeline](https://github.com/jessecoggins/flight-delay-mlops)**
-End-to-end ML pipeline: DVC data versioning, MLflow experiment tracking, FastAPI prediction endpoint, Docker containerization, GitLab CI/CD. Test MSE: 82.51.
+End-to-end ML pipeline: DVC data versioning, MLflow experiment tracking, FastAPI prediction endpoint, Docker containerization, GitLab CI/CD. Reproducible test MSE: 79.65.
 
 **[Loan Default Risk Capstone](https://github.com/jessecoggins/loan-default-risk-capstone)**
 Random Forest classifier on 148,670 loan records with class imbalance handling, stratified k-fold cross-validation, and GridSearchCV tuning. ROC-AUC: 0.737.
@@ -18,7 +18,7 @@ Random Forest classifier on 148,670 loan records with class imbalance handling, 
 Interactive Tableau dashboard published to [Tableau Public](https://public.tableau.com/shared/Z8Z9SR2NB?:display_count=n&:origin=viz_share_link). Churn rate: 26.50%, avg monthly charge: $172.62.
 
 **[Hospital Readmission Analysis](https://github.com/jessecoggins/hospital-readmission-ml)**
-Random Forest classification (accuracy: 97.9%, ROC-AUC: 0.999), K-Means clustering, and PCA on hospital readmission data.
+Random Forest discharge-time risk stratification with feature-timing sensitivity check, plus K-Means clustering and PCA on hospital readmission data.
 
 ---
 
