@@ -26,7 +26,6 @@ Random Forest discharge-time risk stratification with feature-timing sensitivity
 
 | Repo | Topic |
 |---|---|
-| [Southeast Housing Market Analysis](https://github.com/JesseCoggins/southeast-housing-market-analysis) | Census, FHFA and BLS data · affordability, growth and labor markets by metro |
 | [revenue-forecasting-arima](https://github.com/jessecoggins/revenue-forecasting-arima) | ARIMA time series forecasting · RMSE 0.4887 |
 | [ecomart-relational-nosql-database-design](https://github.com/jessecoggins/ecomart-relational-nosql-database-design) | PostgreSQL 3NF + MongoDB · 100K records |
 | [sentiment-analysis-bilstm](https://github.com/jessecoggins/sentiment-analysis-bilstm) | BiLSTM sentiment classifier · accuracy 76% |
