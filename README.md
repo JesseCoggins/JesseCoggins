@@ -12,7 +12,7 @@ Nearly a decade of multi-site operations leadership — KPI tracking, revenue re
 End-to-end ML pipeline: DVC data versioning, MLflow experiment tracking, FastAPI prediction endpoint, Docker containerization, GitLab CI/CD. Reproducible test MSE: 79.65.
 
 **[Loan Default Risk Capstone](https://github.com/jessecoggins/loan-default-risk-capstone)**
-Random Forest classifier on 148,670 loan records with class imbalance handling, stratified k-fold cross-validation, and GridSearchCV tuning. ROC-AUC: 0.737.
+Random Forest tuned on a stratified split of 121,447 complete loan records. Held-out ROC-AUC was 0.737 and default recall was 26.5%.
 
 **[Customer Churn Dashboard](https://github.com/jessecoggins/customer-churn-dashboard)**
 Interactive Tableau dashboard published to [Tableau Public](https://public.tableau.com/shared/Z8Z9SR2NB?:display_count=n&:origin=viz_share_link). Churn rate: 26.50%, avg monthly charge: $172.62.
@@ -26,6 +26,7 @@ Random Forest discharge-time risk stratification with feature-timing sensitivity
 
 | Repo | Topic |
 |---|---|
+| [Southeast Housing Market Analysis](https://github.com/JesseCoggins/southeast-housing-market-analysis) | Census, FHFA and BLS data · affordability, growth and labor markets by metro |
 | [revenue-forecasting-arima](https://github.com/jessecoggins/revenue-forecasting-arima) | ARIMA time series forecasting · RMSE 0.4887 |
 | [ecomart-relational-nosql-database-design](https://github.com/jessecoggins/ecomart-relational-nosql-database-design) | PostgreSQL 3NF + MongoDB · 100K records |
 | [sentiment-analysis-bilstm](https://github.com/jessecoggins/sentiment-analysis-bilstm) | BiLSTM sentiment classifier · accuracy 76% |
