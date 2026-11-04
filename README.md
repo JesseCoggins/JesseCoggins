@@ -1,6 +1,10 @@
-# Jesse Coggins — Data Analyst · Data Scientist
+# Jesse Coggins
 
-In nearly a decade of multi-site operations leadership, I tracked revenue, labor and throughput to decide where a team’s time would make the most difference. I brought that perspective to my M.S. in Data Analytics at Western Governors University. These ten coursework projects show how I connect an analysis to a decision and how I judge whether the result is good enough to act on.
+I’m a data professional with an M.S. in Data Analytics. I work with data at every stage, from raw sources to databases, queries, and visualizations.
+
+I make sure every result is validated for accuracy so people can rely on it. What I enjoy most is turning data into real solutions that help people, teams, and businesses perform their best.
+
+**Gadsden, Alabama · Open to Remote**
 
 [Explore the portfolio case studies](https://jessecoggins.github.io/)
 
