@@ -12,7 +12,7 @@ I make sure every result is validated for accuracy so people can rely on it. Wha
 
 ### Customer churn · Where should a retention team test an offer?
 
-In the telecom data, 37.3% of month-to-month customers churned, compared with 12.7% of customers on two-year contracts. I built a Tableau dashboard so a retention manager can compare those rates by state and choose a group for an outreach experiment. A holdout group would show whether the offer actually keeps more customers. [Interactive dashboard](https://public.tableau.com/shared/Z8Z9SR2NB?:display_count=n&:origin=viz_share_link) · [Project and walkthrough](https://github.com/JesseCoggins/customer-churn-dashboard)
+In the telecom data, 37.3% of month-to-month customers churned, compared with 12.7% of customers on two-year contracts. I built a Tableau dashboard so a retention manager can compare those rates by state and choose a group for an outreach experiment. A holdout group would show whether the offer actually keeps more customers. [Interactive dashboard](https://public.tableau.com/app/profile/jesse.coggins6637/viz/ChurnRateDashboard_17756852469330/CustomerChurnDashboardKeyTrendsbyIncomeRegionContractPayment) · [Project and walkthrough](https://github.com/JesseCoggins/customer-churn-dashboard)
 
 ### Loan default · What does a risk flag mean for an underwriter?
 
@@ -22,9 +22,9 @@ At the model’s chosen threshold, 1,380 test loans would have gone to manual re
 
 I built an API that lets a planner compare average departure delays from Atlanta by destination and scheduled times. The pipeline reproduced a held-out RMSE of 8.92 minutes. Its evaluation excluded delays of an hour or more, which limits how a planner should use the estimate during major disruptions. [Flight-delay pipeline](https://github.com/JesseCoggins/flight-delay-mlops)
 
-### Hospital readmission · When would the care team have the information it needs?
+### Hospital readmission · What can the records show for discharge planning?
 
-Removing length of stay dropped the model’s ROC-AUC from 0.999 to 0.498. That finding changed when I’d evaluate using the score. At discharge, the team knows the completed stay and can consider whom to contact for follow-up. At admission, the model without that information performed near chance. [Hospital readmission analysis](https://github.com/JesseCoggins/hospital-readmission-ml)
+I trained a Random Forest that achieved 97.9% held-out accuracy and 0.999 ROC-AUC, and separately explored three patient segments with K-Means and PCA. The classifier includes completed length of stay, available at discharge. An additional feature-timing check shows why these results do not support decisions at admission. [Hospital readmission analysis](https://github.com/JesseCoggins/hospital-readmission-ml)
 
 ## More coursework
 
